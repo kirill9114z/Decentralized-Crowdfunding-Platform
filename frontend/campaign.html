@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Campaign Details</h1>
+    <div id="campaignInfo"></div>
+    <form id="contributeForm">
+        <label for="amount">Amount (in ETH):</label>
+        <input type="number" id="amount" step="0.01" required>
+        <button type="submit">Contribute</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.5/dist/web3.min.js"></script>
+    <script src="campaign.ts"></script>
+</body>
+</html>
